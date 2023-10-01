@@ -20,7 +20,7 @@ body {
 }
 
 .logo img {
-    width: 4vh;
+    width: 4rem;
 }
 
 ul {
@@ -48,6 +48,14 @@ a {
     justify-content: space-between;
     color: #E5E7EB;
     font-size: 18px;
+    gap: 6rem;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
 }
 
 .hero-right {
@@ -100,8 +108,9 @@ button {
     font-weight:300;
     font-style: italic;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .section.two {
